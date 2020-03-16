@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #3d63d2;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3d63d2;    
+}
+.conteudo{
+    display:flex;
+    border-radius: 15px;
+    background-color: white;
+    width: 86%;
+    height: 98%;
+    justify-content:space-around;
+    align-items: center;    
+}
+.primeira{
+    background-color: #edb506;
+    flex: 1 0 auto;
+    width: 30% ;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;   
+}
+.dog{
+    padding-top: 281px;
+    padding-left: 60px;
+}
+.segunda{
+    background-color: white;
+    text-align: center;
+    flex: 2 0 auto;
+    font-size: 18px;
+    width: 540px;
+}
+.titulo{
+    font-size: 36px;
+}
+.formulario input{
+     height: 65px;
+     border-radius: 50px;
+     border-style: groove;
+     margin: 10px;
+     font-size: 18px;
+     border-color: rgb(255, 255, 255);
+}
+.email{
+    margin:10px;
+    border-radius: 35px;
+    border-style: groove;
+    width: 80%;
+    height: 30px;
+    padding-right: 5px;
+}
+.name{
+    width: 39%;
+}
+.phone{
+    width: 39%;
+}
+.password{
+    width: 39%;
+}
+.repeat{
+    width: 39%;
+}
+.account{
+    color:white;
+    background-color: #4e73de;
+    border-radius: 50px;
+    border-color: #4e73de;
+    padding: 10px 50px;
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 82%;
+    border-style: none;
+    height: 65px;
+    font-size: 18px;
+}
+.account:hover{
+    background-color: white;
+    color:#4e73de;
+    border-color: #4e73de;
+    border-style: solid;
+}
+.google{
+    color:white;
+    background-color: #e94236;
+    border-radius: 50px;
+    border-color: #e94236;
+    padding: 10px 50px;
+    margin: 5px;
+    cursor: pointer;
+    width: 82%;
+    border-style: none;
+    height: 65px;
+    margin: 10px;
+    font-size: 18px;    
+}
+.google:hover{
+    background-color: white;
+    color:#e94236;
+    border-color: #e94236;
+    border-style: solid;
+}
+.facebook{
+    color:white;
+    background-color: #3a5898;
+    border-radius: 50px;
+    border-color: #3a5898;
+    padding: 10px 50px;
+    margin: 5px;
+    cursor: pointer;
+    width: 82%;
+    border-style: none;
+    height: 65px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.facebook:hover{
+    background-color: white;
+    color:#3a5898;
+    border-color: #3a5898;
+    border-style: solid;
+}
+hr {
+    background-color: gainsboro;
+    width: 81%;
+    height: 2px;
+    border: none;
+  }
+a:link{
+    text-decoration: none;
+
+  }
+a:hover{
+    text-decoration:underline;
+}

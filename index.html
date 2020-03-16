@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="index.css">
+    <title>Projeto Mirum</title>
+    <script src="https://kit.fontawesome.com/1fa714252c.js" crossorigin="anonymous"></script> <!--link de personalização de fontes-->
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script> <!--inserção do jquery-->
+    <script src="js/jquery.mask.min.js" type="text/javascript"></script> <!--inserção da mascara que sera usada no campo phone-->
+    <script type="text/javascript"> //inserção do javascript no html
+
+    
+        $(document).ready(function(){
+            $('.phone').mask('(00) 00000-0000');
+        })
+
+        function validarSenha(){
+            senha1=document.form1.senha1.value
+            senha2=document.form1.senha2.value
+                if(senha1!=senha2)
+                alert("Senhas diferentes")
+                else
+                alert("Senhas corretas")
+        }
+
+        function confirmacao(){
+
+            if(senha1!=senha2)
+                alert("Preencha os campos novamente")
+            else
+                alert("Cadastro realizado com sucesso!")
+        return true
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <div class="primeira">
+                <img class="dog" src="https://imagizer.imageshack.com/img924/2497/tzLooo.png">
+            </div>  <!--primeira-->
+            <div class="segunda">
+                <p class="titulo">Create an Account!</p>
+                    <form class="formulario" name="form1" method="post" action="index.html" onsubmit="return confirmacao()">
+                    <input class="name" type="text"  placeholder="   First Name"required>
+                    <input class="phone" type=""  placeholder="   Phone" required><br>
+                    <input class="email" type="email"  placeholder="   Email Address"required><br>
+                    <input class="password" name="senha1" type="password"  placeholder="  Password"required>
+                    <input class="repeat" name="senha2" type="password"  placeholder="   Repeat Password"required><br>
+                    <button class="account" type="submit" value="Register Account" onclick="validarSenha()">Resgister Account</button><br>
+                    </form>
+                <hr>
+                <button class="google" type="submit"><i class="fab fa-google"></i>  Register With Google<br></button>
+                <button class="facebook" type="submit"><i class="fab fa-facebook-f"></i>  Register With Facebook<br></button>
+                <hr>
+                <br>
+                <a href="#">Forgot Password?</a><br>
+                <a href="#">Already have an account? Login!</a>
+            </div>  <!--segunda-->  
+        </div> <!--conteudo--> 
+    </div> <!--container-->   
+</body>
+</html>
