@@ -1,5 +1,5 @@
-# projetomirum
-Projeto de tela feito em HTML e CSS, Javascript e Jquery
+# projetoTeladeLogin
+Projeto de tela para um estágio feito em HTML e CSS, Javascript e Jquery
 
 
 
